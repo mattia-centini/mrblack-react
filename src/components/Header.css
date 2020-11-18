@@ -1,0 +1,43 @@
+.header{
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    border: 1px solid #f6f6f6;
+    color: #FDF501;
+    padding: 3px;
+}
+
+.header__left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header__left > p {
+    margin-left: 10px;
+}
+
+.header__center > img {
+    height: 10vh;
+    object-fit: contain;
+}
+
+.header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.header__right > p{
+    margin-right: 10px;
+}
