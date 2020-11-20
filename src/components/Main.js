@@ -8,7 +8,7 @@ function Main() {
     return (
          <div className='main'>
             <Header />
-            {/* <VideoBg /> */}
+            <VideoBg />
          </div>
    
     )

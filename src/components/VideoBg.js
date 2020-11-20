@@ -5,6 +5,8 @@ function VideoBg() {
     
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
+    const [display, setDisplay] = useState(true)
+    
 
     useEffect(() => {
         const {current} = refContainer
@@ -19,26 +21,37 @@ function VideoBg() {
         })
 
         current.removeEventListener('loadeddata', handleLoad)
+
+        current.addEventListener('ended', () => {
+            setDisplay(false)
+        } )
     })
 
     return (
-        <video
+        <div className='videobg'>
+            <h1>Mr. Black</h1>
+            <video 
                 ref={refContainer}
                 autoPlay
                 muted
-                loop
+                // loop={false}
                 style={{
-                position: "fixed",
-                width: "100%",
-                height: "100%",
-                left: 0,
-                top: 0,
+                    position: 'absolute',
+                    zIndex: 1,
+                    width: "100%",
+                    height: "80%",
+                    // left: 0,
+                    top: 100,
                 opacity: loading ? 0 : 1,
-                transition: "opacity, 2s ease-in-out"
+                transition: "opacity, 2s ease-in-out",
+                display: display ? 'block' : 'none'
                 }}
-      >
-        <source src={MrBlack} type="video/mp4" />
-      </video>
+                >
+                <source src={MrBlack} type="video/mp4" />
+             </video>
+        </div>
+             
+        
     )
 }
 
