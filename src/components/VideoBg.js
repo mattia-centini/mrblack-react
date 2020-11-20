@@ -1,5 +1,6 @@
 import React, {useRef, useEffect, useState}from 'react'
 import MrBlack from '../media/MrBlack_v1.mp4'
+import './VideoBg.css'
 
 function VideoBg() {
     
@@ -29,7 +30,8 @@ function VideoBg() {
 
     return (
         <div className='videobg'>
-            <h1>Mr. Black</h1>
+            
+            {!loading && <h1>Mr. Black</h1>}
             <video 
                 ref={refContainer}
                 autoPlay
@@ -41,7 +43,7 @@ function VideoBg() {
                     width: "100%",
                     height: "80%",
                     // left: 0,
-                    top: 100,
+                    top: 80,
                 opacity: loading ? 0 : 1,
                 transition: "opacity, 2s ease-in-out",
                 display: display ? 'block' : 'none'

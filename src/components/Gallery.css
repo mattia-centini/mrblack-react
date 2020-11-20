@@ -1,0 +1,12 @@
+.gallery{
+    position: relative;
+    height: 90vh;
+    background-color: violet;
+}
+
+.gallery__container{
+    height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+    background-color: yellow;
+}

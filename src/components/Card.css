@@ -1,0 +1,17 @@
+.card{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    object-fit: contain;
+    vertical-align: bottom;
+}
+
+.card > p{
+    
+}
