@@ -1,12 +1,25 @@
 .gallery{
     position: relative;
-    height: 90vh;
-    background-color: violet;
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .gallery__container{
-    height: 100%;
-   display: flex;
-   flex-wrap: wrap;
-    background-color: yellow;
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+} 
+
+.gallery__container > ul > li{
+    list-style: none;
 }
+
