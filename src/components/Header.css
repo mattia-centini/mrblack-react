@@ -8,6 +8,10 @@
     border-bottom: 1px solid #f6f6f6;
 }
 
+.header a{
+    text-decoration: none;
+}
+
 p{
     color: #FDF501;
     padding: 3px;
@@ -33,7 +37,7 @@ p:hover{
     margin-left: 10px;
 }
 
-.header__center > img {
+.header__center > a > img {
     height: 10vh;
     object-fit: contain;
 }

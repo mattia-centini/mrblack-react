@@ -10,7 +10,7 @@ function Gallery() {
 
     return (
         <div className='gallery'>
-            <div className='test'>
+            
             <div className='gallery__container'>
                 {photos.map((picture) => (
                             <Card
@@ -24,7 +24,6 @@ function Gallery() {
                 )}
                 
 
-            </div>
             </div>
                      
             
