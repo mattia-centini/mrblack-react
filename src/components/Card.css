@@ -6,6 +6,8 @@
     justify-content: space-between;
     /* box-shadow: 3px 0px 22px 2px rgba(222,227,224,1); */  
     transition: transform 1s ease;
+  
+    
 }
 
 .card:hover{
@@ -13,16 +15,28 @@
     transform: scale(1.1);
 }
 
-img{
+/* img{
     height: 400px;
     width: 100%;
     object-fit: contain;
     filter: drop-shadow(0px 0px 10px #5b5b94);
-    /* vertical-align: bottom; */
-    /* box-shadow: 3px 0px 22px 2px rgba(222,227,224,1); */
+    border-radius: 10%;
+    vertical-align: middle;
+} */
 
-}
 
-.card > p{
-    
+.card__image{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 0px 5px 1px rgba(222,227,224,1);  
+    border-radius: 3px;
+
+    /* object-fit: contain;
+    filter: drop-shadow(0px 0px 10px #5b5b94);
+    border-radius: 10%; */
+    /* vertical-align: middle; */
 }

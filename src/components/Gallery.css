@@ -1,10 +1,11 @@
-.gallery{
+.test{
     position: relative;
     width: 100vw;
-    height: auto;
+    height: 500vh;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    
     
 }
 
@@ -16,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 } 
 
 .gallery__container > ul > li{
