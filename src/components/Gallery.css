@@ -1,7 +1,7 @@
 .gallery{
     position: relative;
     width: 100vw;
-    height: fit-content;
+    height: 500vh;
     background-color: black;
     display: flex;
     justify-content: center; 

@@ -1,4 +1,95 @@
 .contact{
     height: 100vh;
-    background-color: yellow;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,40,49,1) 94%, rgba(57,62,70,1) 100%);    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.contact__top{
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.contact__bottom{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    color: #ffd369;
+
+}
+
+.contact__left{
+    height: 80%;
+    width: 30%;
+    border: 2px solid #393e46;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.contact__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contact__left > div{
+    margin-left: 5px;
+}
+
+.contact__address{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__phone > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact__hours{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__hours > ul > li{
+    list-style: none;
+    padding: 5px;
+
+}
+
+
+.contact__right{
+    height: 80%;
+    width: 50%;
+    border: 1px solid #ffd369;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(
+        rgba(224, 224, 224, 0.3),
+        rgba(224, 224, 224, 0.3)
+      ),
+      url("../media/collection/035.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+
+
+
