@@ -15,12 +15,15 @@ function App() {
         <Switch>
         <Route path='/gallery'>
             <Gallery />
-          </Route>
-          <Route path='/'>
+        </Route>
+       
+        <Route path='/contact'>
+            <Contact />
+        </Route>
+        <Route path='/'>
             <Main />
-            <Contact path='/contact'/>
-          </Route>
-          
+            <Contact />
+        </Route>
         </Switch>
         
       </Router>
