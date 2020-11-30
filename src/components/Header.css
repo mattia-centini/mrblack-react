@@ -1,7 +1,7 @@
 .header{
     height: 10vh;
     background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,40,49,1) 82%, rgba(57,62,70,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,40,49,1) 82%, rgba(57,62,70,1) 100%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,4 +60,21 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,40,49,1) 82%, rgba(5
     justify-content: space-around;
     align-items: center;
     margin-right: 15px;
+    color: #ffd369;
 }
+
+.header__right > .MuiIconButton-root{
+    color: #ffd369;
+}
+
+.MuiSvgIcon-root.facebook{
+    height: 40px;
+    width: 40px;
+}
+
+.header__rightAnchor{
+    text-decoration: none;
+    color: inherit;
+}
+
+

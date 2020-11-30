@@ -8,7 +8,7 @@ import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 function Contact() {
     return (
         <div className='contact'>
-            <div className='contact__top'><h2>Contact</h2></div>
+            <div className='contact__top'><h2>Contact Us - Reservations</h2></div>
             <div className='contact__bottom'>
                     <div className="contact__left">
                         <div className='contact__wrap'>

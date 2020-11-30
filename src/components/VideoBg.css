@@ -1,13 +1,6 @@
 .videobg{
     height: 90vh;
     position: relative;
-}
-
-.videobg > h1{
-    color: white;
-    border: 1px solid white;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    z-index: 2;
+    display: flex;
+    justify-content: center;
 }

@@ -42,7 +42,7 @@ function Contact(){
     return (
         
             <form className='contactForm__form' onSubmit={handleSubmit}>
-                <h1>Contact Us</h1>
+                <h1>Write to Us</h1>
 
                 <label>Name</label>
                 <TextField 
