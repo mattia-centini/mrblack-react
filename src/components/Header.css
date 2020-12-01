@@ -20,7 +20,7 @@
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
     font-size: 1.2rem;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .header p:hover{
     text-shadow: 2px 2px 10px rgba(252,255,166,1);
@@ -32,17 +32,29 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 10px;
+   
 }
 
 
-
+.header__center{
+    width: 20%;
+}
 .header__center > a > img {
     height: 10vh;
     object-fit: contain;
+
 }
 
-
+.header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    color: #ffd369;
+    
+}
 
 .header__right p{
     color: #ffd369 ;
@@ -54,23 +66,22 @@
     /* #FDF501 */
 }
 
-.header__right{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 15px;
-    color: #ffd369;
-}
+
 
 .header__right > .MuiIconButton-root{
     color: #ffd369;
 }
 
-.MuiSvgIcon-root.facebook{
+.header__rightTA{
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+}
+
+/* .MuiSvgIcon-root.facebook{
     height: 40px;
     width: 40px;
-}
+} */
 
 .header__rightAnchor{
     text-decoration: none;

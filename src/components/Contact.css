@@ -24,6 +24,7 @@
     flex: 1;
     justify-content: space-around;
     color: #ffd369;
+    
 
 }
 
@@ -34,6 +35,11 @@
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    background-image: url('../media/Frame.jpg');
+    background-size: 350px 520px;
+    background-repeat: no-repeat;
+    background-position:  center ;
+
 }
 .contact__wrap{
     display: flex;
