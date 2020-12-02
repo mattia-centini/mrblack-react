@@ -1,0 +1,37 @@
+.offer{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(14, 17, 20) 94%, rgba(57,62,70,1) 100%);
+    justify-content: center;
+}
+
+.offer__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.offer__topLeft{
+    background-image: url("../media/p2.jpg");
+    border: 2px  solid #222831;
+    border-radius: 5px;
+    height: 100%;
+    width: 40%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:  center ;
+}
+
+.offer__topRight{
+    background-image: url("../media/p3.jpg");
+    border: 2px solid #222831;
+    border-radius: 5px;
+    height: 100%;
+    width: 40%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:  center ;
+}

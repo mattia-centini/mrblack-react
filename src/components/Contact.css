@@ -24,8 +24,6 @@
     flex: 1;
     justify-content: space-around;
     color: #ffd369;
-    
-
 }
 
 .contact__left{
@@ -36,11 +34,11 @@
     display: flex;
     justify-content: center;
     background-image: url('../media/Frame.jpg');
-    background-size: 350px 520px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position:  center ;
-
 }
+
 .contact__wrap{
     display: flex;
     flex-direction: column;

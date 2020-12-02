@@ -13,7 +13,7 @@ function Header() {
             <div className='header__left'>
                 <IconButton size='small'><Link to='/about'><p>About Us</p></Link></IconButton>
                 <IconButton size='small'><Link to='/gallery'><p>Gallery</p></Link></IconButton>
-                <IconButton size='small'><Link tp='/menu'><p>Menu</p></Link></IconButton>
+                <IconButton size='small'><Link to='/offer'><p>Menu</p></Link></IconButton>
                 <IconButton size='small'><Link to='/contact'><p>Contact</p></Link></IconButton>
                 {/* <IconButton size='small'><Link to='/offer'><p>Offer</p></Link></IconButton> */}
             </div>

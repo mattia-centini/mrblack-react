@@ -4,6 +4,7 @@ import Main from './components/Main'
 import Gallery from './components/Gallery'
 import Header from './components/Header'
 import Contact from './components/Contact'
+import Offer from './components/Offer'
 
 
 
@@ -20,8 +21,12 @@ function App() {
         <Route path='/contact'>
             <Contact />
         </Route>
+        <Route path='/offer'>
+            <Offer />
+        </Route>
         <Route path='/'>
             <Main />
+            <Offer />
             <Contact />
         </Route>
         </Switch>
