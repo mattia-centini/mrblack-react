@@ -1,0 +1,33 @@
+.footer{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(14, 17, 20) 94%, rgba(57,62,70,1) 100%);
+    
+
+}
+.footer__top{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__bottom{
+    height: 20vh;
+    width: 100%;
+    border-top: 2px solid #393e46;   
+}
+
+.footer__topLeft{
+    height: 100%;
+    width: 50%;
+    background-color: #192231;
+}
+
+.footer__topRight{
+    height: 100%;
+    width: 50%;
+    background-image: url('../media/p6.png');
+    background-position: center;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+}

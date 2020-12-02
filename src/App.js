@@ -5,6 +5,7 @@ import Gallery from './components/Gallery'
 import Header from './components/Header'
 import Contact from './components/Contact'
 import Offer from './components/Offer'
+import Footer from './components/Footer'
 
 
 
@@ -20,6 +21,7 @@ function App() {
        
         <Route path='/contact'>
             <Contact />
+            <Footer />
         </Route>
         <Route path='/offer'>
             <Offer />
@@ -28,6 +30,7 @@ function App() {
             <Main />
             <Offer />
             <Contact />
+            <Footer />
         </Route>
         </Switch>
         

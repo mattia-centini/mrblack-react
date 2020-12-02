@@ -12,6 +12,7 @@ function Offer() {
                 <div className='offer__bottomLeft'></div>
                 <div className='offer__bottomRight'></div>
             </div>
+            
         </div>
     )
 }
