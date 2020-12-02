@@ -15,7 +15,7 @@
 .footer__topLeft{
     height: 100%;
     width: 50%;
-    background-color: #192231;
+
 }
 
 .footer__topRight{
@@ -68,6 +68,3 @@
     color: #eeeeee;
 }
 
-.footer__bottomIconsColour{
-    color: #eeeeee;
-}
